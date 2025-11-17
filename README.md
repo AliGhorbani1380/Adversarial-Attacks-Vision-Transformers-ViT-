@@ -39,16 +39,16 @@ We analyzed the models' performance not just on accuracy, but on *why* they make
 ### 1. ResNet Robustness to Noise
 We first established a baseline by training a ResNet model. We found that adding simple Gaussian noise significantly degraded performance, highlighting the sensitivity of standard models.
 
-<img width="427" height="368" alt="image" src="https://github.com/user-attachments/assets/9025938d-8d34-4498-9073-0e7ef883734d" />
-<img width="427" height="368" alt="image" src="https://github.com/user-attachments/assets/28bda7ca-6828-487e-957e-756849f66deb" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/9025938d-8d34-4498-9073-0e7ef883734d" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/28bda7ca-6828-487e-957e-756849f66deb" />
 
 
 ### 2. Vision Transformer (ViT) Performance
 We then trained two ViT models: one fine-tuned from pre-trained weights and one trained from scratch. The fine-tuned model achieved superior results, demonstrating the power of transfer learning.
 
 > **[Image Placeholder]**
-<img width="427" height="368" alt="image" src="https://github.com/user-attachments/assets/983b7fca-c6b2-47f5-9a9e-3a4ac02b1251" />
-<img width="427" height="368" alt="image" src="https://github.com/user-attachments/assets/faaf8f10-8052-42ae-aaed-ac91a565bc9a" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/983b7fca-c6b2-47f5-9a9e-3a4ac02b1251" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/faaf8f10-8052-42ae-aaed-ac91a565bc9a" />
 
 
 ### 3. Adversarial Attacks & Defense
@@ -60,8 +60,8 @@ Our key result, shown through Grad-CAM, is that **Adversarial Training** fundame
 * **Defended Model (ViT-Finetuned-Adv):** Learns to look at the overall, holistic shape of the object (e.g., the entire cluster of flowers). This is a much more robust and human-like strategy.
 
 > **[Image Placeholder]**
-<img width="427" height="368" alt="image" src="https://github.com/user-attachments/assets/30823834-9b3f-4372-8d36-360eed9a8323" />
-<img width="427" height="368" alt="image" src="https://github.com/user-attachments/assets/36ead93f-58e9-4af9-b590-c88c0ccea96c" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/30823834-9b3f-4372-8d36-360eed9a8323" />
+<img width="400" height="300" alt="image" src="https://github.com/user-attachments/assets/36ead93f-58e9-4af9-b590-c88c0ccea96c" />
 
 
 ## 🛠️ Getting Started
